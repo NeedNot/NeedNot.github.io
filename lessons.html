@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"><!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"><!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"><!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet"><!-- MDBootstrap Datatables  -->
-  <link href="https://hungry-snyder-4adec0.netlify.app/datatables.min.css" rel="stylesheet">
-  <link rel="fav" href="https://hungry-snyder-4adec0.netlify.app/need_Not's%20face.ico">
-  <link rel="shortcut icon" type="image/ico" href="https://hungry-snyder-4adec0.netlify.app/need_Not's%20face.ico">
-  <style>
-                @font-face { font-family: Chunk; src: url('Chunk.TTF'); } 
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <!-- Google Fonts -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+      <!-- MDBootstrap Datatables  -->
+      <link href="https://hungry-snyder-4adec0.netlify.app/datatables.min.css" rel="stylesheet">
+      <link rel="fav" href="https://hungry-snyder-4adec0.netlify.app/need_Not's%20face.ico">
+      <link rel="shortcut icon" type="image/ico" href="https://hungry-snyder-4adec0.netlify.app/need_Not's%20face.ico">
+      <style>
+		@font-face { font-family: Chunk; src: url('Chunk.TTF'); } 
         h1 {
           font-size: 500%;
         }
@@ -24,60 +29,68 @@
         }
 
         #container {
-                  position: relative;
-                  text-align: center;
-                  color: white;
+		  position: relative;
+		  text-align: center;
+		  color: white;
         }
-                #bottom_brick {
-                  position: relative;
-                  text-align: center;
+		#bottom_brick {
+		  position: relative;
+		  text-align: center;
+        }
+        .container {
+          min-height: 100%;
+		  position: relative;
+		  text-align: center;
+		  color: white;
         }
 
         #main {
           overflow: hidden;
 
         }
-                  #footer {
-                          position: bottom;
-                  }
-                  .container_img {
-                          display: flex;
-                          align-items: left;
-                          justify-content: flex-start;
-                  }
-                  .image_custom {
-                          max-width: 100%;
-                  }
-                  .centered {
-                          position: absolute;
-                          top: 50%;
-                          left: 50%;
-                          transform: translate(-50%, -50%);
-                  }
-                  div.resize {
-                          
-                  }
-                  @media screen and (min-width: 1379px) {
-                          div.resize {
-                                font-size: 100px;
-                        }
-                  }
-                  @media screen and (max-width: 1378px) {
-                    div.resize {
-                          font-size: 30px;
-                    }
-                  }
-        .space_gap {
-            display: block;
-            margin-bottom: 3%;
-        }
-  </style>
-  <title></title>
-</head>
-<body>
-  <title>CenCal Foil Sports</title>
-  <div id="wrap">
-    <div id="main">
+		  #footer {
+			  position: bottom;
+		  }
+		  .container_img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		  }
+		  .image_custom {
+			  max-width: 100%;
+		  }
+		  .centered {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+		  }
+		  div.resize {
+			  
+		  }
+		  @media screen and (min-width: 1379px) {
+			  div.resize {
+				font-size: 100px;
+			}
+		  }
+		  @media screen and (max-width: 1378px) {
+		    div.resize {
+			  font-size: 30px;
+		    }
+		  }
+		.some-paragraph{
+			font-size: 3vw;
+		}
+		.some-paragraph1{
+			font-size: 2.9vw;
+		}  
+        </style>
+    </head>
+    <body>
+    <title>CenCal Foil Sports</title>
+    <div id="wrap">
+      <div id="main">
+
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #36B7B2">
         <!-- Navbar brand -->
@@ -90,67 +103,37 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/guild/">About</a>
+              <a class="nav-link" href="/contact/">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/FAQ/">FAQ</a>
+              <a class="nav-link" href="/lessons/">Lessons</a>
             </li>
+			<li class="nav-item">
+              <a class="nav-link" href="/lift/">Lift</a>
+            </li>  
           </ul>
         </div><!-- Collapsible content -->
-      </nav><!--/.Navbar-->
-      <!-- Background image -->
-      <div id="bottom_brick" style="margin-top: 5%;">
-        <h2 style="font-family: Chunk; font-size: 400%">LESSONS</h2>
-        <hr style="width:50%;" class="space_gap">
-        <div style="margin-left: 10%; margin-right: 10%;text-align: left">
-			<br>
-          <main class="my-5">
-            <!--Section: Content-->
-			<h2 style="font-size: 37px; font-family: Chunk;">LIFT3 eFoil demo/lesson:</h2>
-          	<h4 style="color: grey; font-family: Chunk;">Early season discount: $100/hr</h4>
-			<br>
-            <section class="text-center text-md-start">
-              <!-- Post -->
-              <div class="row">
-                <div class="col-md-4 mb-4">
-                  <div class="bg-image hover-overlay shadow-1-strong rounded ripple" data-mdb-ripple-color="light">
-                    <img src="efoil.png" class="img-fluid" alt="184"> <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
-                  </div>
-                </div>
-                <div class="col-md-8 mb-4" style="text-align: left">
-                  <p style="font-size: 25px">Come try out the new LIFT3 eFoil, the best for beginners to learn to hover over the water.<br>
-                  You will be given a safety crash course and then you can get out on the water.<br>
-                  Beginners with previous surfing or other water sport experience can usually get up in minutes and off the water within 30 minutes.<br>
-                  But don’t worry total beginner riders can get up within the first half of their session too.
-					</p><button type="button" class="btn" style="background-color: #36B7B2; color: white">Contact</button>
-                </div>
-              </div>
-            </section>
-			  <div style="margin-top: 50px">
-	          <h2 style="font-size: 37px; font-family: Chunk;">Foil surfing lesson:</h2>
-          	  <h4 style="color: grey; font-family: Chunk;">Early season discount: $100/hr</h4>
-			  <br>
-			 <section class="text-center text-md-start">
-              <!-- Post -->
-              <div class="row">
-                <div class="col-md-4 mb-4">
-                  <div class="bg-image hover-overlay shadow-1-strong rounded ripple" data-mdb-ripple-color="light">
-                    <img src="foil.jpg" class="img-fluid" alt="184"> <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
-                  </div>
-                </div>
-                <div class="col-md-8 mb-4" style="text-align: left">
-                  <p style="font-size: 25px">If you want to start foiling successfully then you need to try our setup.<br> We have the most stable wing connected to a short and controllable mast bolted on to a buoyant board- the perfect setup for a first-timer.<br>
-		 
-				  All our lessons are done on a private lake in Fresno.<br> The lake stays warmer than Millerton and the average swimming pool.<br> All ages can come to learn and kids will have an easier time getting up on the eFoil.</p><button type="button" class="btn" style="background-color: #36B7B2; color: white">Contact</button>
-                </div>
-              </div>
-            </section>  
-          </main><!-- Background image -->
-        </div>
-			<!-- Footer -->
-        <div id="footer">
+      </nav>
+      <!--/.Navbar-->
+		  <!-- Background image -->
+		  <div id="bottom_brick" style="font-family: Chunk; margin-top: 5%"><h1>CONTACT</h1></div>
+		  <hr style="width:50%;">
+		  <div style="margin-top: 5%">
+		  <h2 class="some-paragraph" style="text-align: left; margin-left: 20%; font-family: Chunk; margin-right: 20%">Have a question or want to schedule a demo or lesson?</h2>
+		  <br>
+		  <div class="some-paragraph1" style="text-align: left; margin-left: 20%; margin-right: 20%">
+		  <p style="color: black;"><i class="fas fa-sms"></i><a href="sms:+15592900238" style="color: black; font-family: chunk"> Text (559) 290-0238</a></p>
+		  <p style="color: black;"><i class="fas fa-mobile-alt"></i><a href="tel:15592900238" style="color: black; font-family: chunk"> Call (559) 290-0238</a></p>
+		  <p style="color: black;"><i class="fas fa-envelope"></i><a href="mailto:cencalfoilsports@gmail.com" style="color: black; font-family: chunk"> cencalfoilsports@gmail.com</a></p>
+	      </div>
+		  <br>
+		  <div style="margin-top: 5%">
+		</div>
+		<!-- Background image -->
+          </div>
+
+          <!-- Footer -->
+          <div id="footer">
           <footer class="page-footer font-small pt-4" style="background-color: #36B7B2">
             <!-- Footer Links -->
             <div class="container text-center text-md-left">
@@ -159,22 +142,21 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">about cencal foil sports</h6>
-                  <p>We do hydro foil and efoil lessons and demos at a private lake in fresno.</p>
+                  <p>We do hydro foil and eFoil lessons and demos at a private lake in fresno.</p>
                 </div><!-- Grid column -->
                 <hr class="w-100 clearfix d-md-none">
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-				  <h6 class="text-uppercase mb-4 font-weight-bold">about lift efoil</h6>
-                  <p>lift efoil...</p>
+				  <h6 class="text-uppercase mb-4 font-weight-bold">about lift eFoil</h6>
+                  <p>lift eFoil...</p>
                 </div><!-- Grid column -->
                 <hr class="w-100 clearfix d-md-none">
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">Pages</h6>
                   <p><a href="/">Home</a></p>
-                  <p><a href="/guild/">Guild XP Viewer</a></p>
-                  <p><a href="/about/">About</a></p>
-                  <p><a href="#!"></a></p>
+                  <p><a href="/lessons/">Lessons</a></p>
+                  <p><a href="/lift/">Lift</a></p>
                 </div><!-- Grid column -->
                 <hr class="w-100 clearfix d-md-none">
                 <!-- Grid column -->
@@ -205,9 +187,7 @@
               </div><!-- Grid row -->
             </div><!-- Footer Links -->
           </footer>
-        </div><!-- Footer -->
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+        </div>
+          <!-- Footer -->
+          </body>
+      </html>
