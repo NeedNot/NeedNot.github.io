@@ -34,6 +34,10 @@
         </style>
     </head>
     <body >
+	    <div id="messageBox" class="sendmessage">
+         <h1 style="text-align: center;font-family: 'Open Sans', sans-serif;">Press Space to start</h1>
+         <div class="niokbutton" onclick="okbuttonsend()"></div>
+		</div>
         <div id="main-frame-error" class="interstitial-wrapper" jstcache="0">
           <img class="icon icon-offline" jseval="updateIconClass(this.classList, iconClass)" jstcache="1" style="visibility: hidden;">
         </div>
@@ -64,5 +68,14 @@
         </template>
 
         <script src="scripts/runner.js"></script>
+		<script>
+			document.onkeydown = function(evt) {
+			evt = evt || window.event;
+			if (evt.keyCode == 32) {
+				var box = document.getElementById("messageBox");
+				box.style.visibility="hidden";
+			}
+		};
+		</script>
     </body>
 </html>
